@@ -18,10 +18,10 @@ const baseConfig = {
     urls: pics,
   },
   game: {
-    intervalMs: 10 * 1000,
+    intervalMs: 8 * 1000,
     questions: [
       {
-        text: '2 x 2 = ?',
+        text: 'Q1. 2 x 2 = ?',
         options: [
           '1',
           '2',
@@ -29,6 +29,16 @@ const baseConfig = {
           '4',
         ],
         answer: '4',
+      },
+      {
+        text: 'Q1. 4 x 4 = ?',
+        options: [
+          '4',
+          '8',
+          '16',
+          '32',
+        ],
+        answer: '16',
       },
     ],
   },
